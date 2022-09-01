@@ -1,0 +1,26 @@
+{
+    "os": "macOS-12.3-arm64-arm-64bit",
+    "python": "3.9.12",
+    "heartbeatAt": "2022-09-01T22:26:42.754421",
+    "startedAt": "2022-09-01T22:26:42.356308",
+    "docker": null,
+    "cpu_count": 10,
+    "cuda": null,
+    "args": [
+        "run",
+        "app",
+        "app.py"
+    ],
+    "state": "running",
+    "program": "/Users/sagarkarki/Desktop/Project/Apply1/MyApp/app.py",
+    "codePath": "app.py",
+    "git": {
+        "remote": null,
+        "commit": null
+    },
+    "email": null,
+    "root": "/Users/sagarkarki/Desktop/Project/Apply1/MyApp",
+    "host": "Sagars-MBP.hsd1.ca.comcast.net",
+    "username": "sagarkarki",
+    "executable": "/Users/sagarkarki/opt/miniconda3/envs/Delta13/bin/python"
+}

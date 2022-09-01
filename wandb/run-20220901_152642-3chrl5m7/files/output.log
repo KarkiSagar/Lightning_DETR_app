@@ -1,0 +1,15 @@
+GPU available: True (mps), used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Missing logger folder: /Users/sagarkarki/Desktop/Project/Apply1/super-enigma/Trainer_save_dir/lightning_logs
+  | Name      | Type         | Params
+-------------------------------------------
+0 | model     | DETRModel    | 41.5 M
+1 | criterion | SetCriterion | 0
+-------------------------------------------
+41.3 M    Trainable params
+222 K     Non-trainable params
+41.5 M    Total params
+166.007   Total estimated model params size (MB)
+Sanity Checking: 0it [00:00, ?it/s]

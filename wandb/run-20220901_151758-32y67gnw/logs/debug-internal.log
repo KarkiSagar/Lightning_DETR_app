@@ -1,0 +1,74 @@
+2022-09-01 15:17:59,001 INFO    StreamThr :10802 [internal.py:wandb_internal():90] W&B internal server running at pid: 10802, started at: 2022-09-01 15:17:59.000068
+2022-09-01 15:17:59,002 DEBUG   HandlerThread:10802 [handler.py:handle_request():141] handle_request: status
+2022-09-01 15:17:59,003 DEBUG   SenderThread:10802 [sender.py:send_request():316] send_request: status
+2022-09-01 15:17:59,004 DEBUG   SenderThread:10802 [sender.py:send():302] send: header
+2022-09-01 15:17:59,004 INFO    WriterThread:10802 [datastore.py:open_for_write():75] open: /Users/sagarkarki/Desktop/Project/Apply1/MyApp/wandb/run-20220901_151758-32y67gnw/run-32y67gnw.wandb
+2022-09-01 15:17:59,005 DEBUG   SenderThread:10802 [sender.py:send():302] send: run
+2022-09-01 15:17:59,271 DEBUG   HandlerThread:10802 [handler.py:handle_request():141] handle_request: check_version
+2022-09-01 15:17:59,272 INFO    SenderThread:10802 [dir_watcher.py:__init__():216] watching files in: /Users/sagarkarki/Desktop/Project/Apply1/MyApp/wandb/run-20220901_151758-32y67gnw/files
+2022-09-01 15:17:59,272 INFO    SenderThread:10802 [sender.py:_start_run_threads():913] run started: 32y67gnw with start time 1662070678.99398
+2022-09-01 15:17:59,272 DEBUG   SenderThread:10802 [sender.py:send():302] send: summary
+2022-09-01 15:17:59,272 INFO    SenderThread:10802 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-01 15:17:59,272 DEBUG   SenderThread:10802 [sender.py:send_request():316] send_request: check_version
+2022-09-01 15:17:59,438 DEBUG   HandlerThread:10802 [handler.py:handle_request():141] handle_request: run_start
+2022-09-01 15:17:59,439 DEBUG   HandlerThread:10802 [meta.py:__init__():35] meta init
+2022-09-01 15:17:59,439 DEBUG   HandlerThread:10802 [meta.py:__init__():50] meta init done
+2022-09-01 15:17:59,441 DEBUG   HandlerThread:10802 [meta.py:probe():216] probe
+2022-09-01 15:17:59,443 DEBUG   HandlerThread:10802 [meta.py:_setup_git():206] setup git
+2022-09-01 15:17:59,458 DEBUG   HandlerThread:10802 [meta.py:_setup_git():213] setup git done
+2022-09-01 15:17:59,459 DEBUG   HandlerThread:10802 [meta.py:_save_pip():54] save pip
+2022-09-01 15:17:59,459 DEBUG   HandlerThread:10802 [meta.py:_save_pip():68] save pip done
+2022-09-01 15:17:59,460 DEBUG   HandlerThread:10802 [meta.py:_save_conda():75] save conda
+2022-09-01 15:18:00,275 INFO    Thread-12 :10802 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/sagarkarki/Desktop/Project/Apply1/MyApp/wandb/run-20220901_151758-32y67gnw/files/conda-environment.yaml
+2022-09-01 15:18:00,275 INFO    Thread-12 :10802 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/sagarkarki/Desktop/Project/Apply1/MyApp/wandb/run-20220901_151758-32y67gnw/files/wandb-summary.json
+2022-09-01 15:18:00,275 INFO    Thread-12 :10802 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/sagarkarki/Desktop/Project/Apply1/MyApp/wandb/run-20220901_151758-32y67gnw/files/requirements.txt
+2022-09-01 15:18:01,853 DEBUG   HandlerThread:10802 [meta.py:_save_conda():85] save conda done
+2022-09-01 15:18:01,853 DEBUG   HandlerThread:10802 [meta.py:probe():254] probe done
+2022-09-01 15:18:01,895 DEBUG   SenderThread:10802 [sender.py:send():302] send: telemetry
+2022-09-01 15:18:01,895 DEBUG   SenderThread:10802 [sender.py:send():302] send: files
+2022-09-01 15:18:01,895 INFO    SenderThread:10802 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-09-01 15:18:01,898 DEBUG   HandlerThread:10802 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-01 15:18:01,899 DEBUG   SenderThread:10802 [sender.py:send_request():316] send_request: stop_status
+2022-09-01 15:18:02,018 DEBUG   SenderThread:10802 [sender.py:send():302] send: telemetry
+2022-09-01 15:18:02,280 INFO    Thread-12 :10802 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/sagarkarki/Desktop/Project/Apply1/MyApp/wandb/run-20220901_151758-32y67gnw/files/conda-environment.yaml
+2022-09-01 15:18:02,280 INFO    Thread-12 :10802 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/sagarkarki/Desktop/Project/Apply1/MyApp/wandb/run-20220901_151758-32y67gnw/files/wandb-metadata.json
+2022-09-01 15:18:02,281 INFO    Thread-12 :10802 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/sagarkarki/Desktop/Project/Apply1/MyApp/wandb/run-20220901_151758-32y67gnw/files/output.log
+2022-09-01 15:18:02,447 INFO    Thread-16 :10802 [upload_job.py:push():138] Uploaded file /var/folders/qg/svjzmvbn3v12xfdwvbdsf1d80000gn/T/tmplwcme4abwandb/tytq1x4p-wandb-metadata.json
+2022-09-01 15:18:04,289 INFO    Thread-12 :10802 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/sagarkarki/Desktop/Project/Apply1/MyApp/wandb/run-20220901_151758-32y67gnw/files/output.log
+2022-09-01 15:18:16,308 INFO    Thread-12 :10802 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/sagarkarki/Desktop/Project/Apply1/MyApp/wandb/run-20220901_151758-32y67gnw/files/output.log
+2022-09-01 15:18:17,025 DEBUG   HandlerThread:10802 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-01 15:18:17,025 DEBUG   SenderThread:10802 [sender.py:send_request():316] send_request: stop_status
+2022-09-01 15:18:30,351 INFO    Thread-12 :10802 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/sagarkarki/Desktop/Project/Apply1/MyApp/wandb/run-20220901_151758-32y67gnw/files/config.yaml
+2022-09-01 15:18:32,156 DEBUG   HandlerThread:10802 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-01 15:18:32,157 DEBUG   SenderThread:10802 [sender.py:send_request():316] send_request: stop_status
+2022-09-01 15:18:39,361 DEBUG   SenderThread:10802 [sender.py:send():302] send: stats
+2022-09-01 15:18:47,297 DEBUG   HandlerThread:10802 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-01 15:18:47,297 DEBUG   SenderThread:10802 [sender.py:send_request():316] send_request: stop_status
+2022-09-01 15:18:48,397 DEBUG   SenderThread:10802 [sender.py:send():302] send: files
+2022-09-01 15:18:48,398 INFO    SenderThread:10802 [sender.py:_save_file():1156] saving file media/images/pred_img_0_e3efef9953e952a9d4f3.png with policy now
+2022-09-01 15:18:48,399 DEBUG   SenderThread:10802 [sender.py:send():302] send: files
+2022-09-01 15:18:48,399 INFO    SenderThread:10802 [sender.py:_save_file():1156] saving file media/metadata/boxes2D/pred_img_0_d73b056624b9d0439d1c.boxes2D.json with policy now
+2022-09-01 15:18:48,399 DEBUG   HandlerThread:10802 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-01 15:18:48,404 DEBUG   SenderThread:10802 [sender.py:send():302] send: config
+2022-09-01 15:18:48,406 DEBUG   SenderThread:10802 [sender.py:send():302] send: history
+2022-09-01 15:18:48,406 DEBUG   SenderThread:10802 [sender.py:send():302] send: summary
+2022-09-01 15:18:48,407 INFO    SenderThread:10802 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-01 15:18:48,762 DEBUG   HandlerThread:10802 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-01 15:18:48,879 INFO    Thread-18 :10802 [upload_job.py:push():138] Uploaded file /var/folders/qg/svjzmvbn3v12xfdwvbdsf1d80000gn/T/tmplwcme4abwandb/112x84f3-media/metadata/boxes2D/pred_img_0_d73b056624b9d0439d1c.boxes2D.json
+2022-09-01 15:18:49,114 INFO    Thread-17 :10802 [upload_job.py:push():138] Uploaded file /var/folders/qg/svjzmvbn3v12xfdwvbdsf1d80000gn/T/tmplwcme4abwandb/2xsnxim1-media/images/pred_img_0_e3efef9953e952a9d4f3.png
+2022-09-01 15:18:49,394 INFO    Thread-12 :10802 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/sagarkarki/Desktop/Project/Apply1/MyApp/wandb/run-20220901_151758-32y67gnw/files/wandb-summary.json
+2022-09-01 15:18:49,395 INFO    Thread-12 :10802 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/sagarkarki/Desktop/Project/Apply1/MyApp/wandb/run-20220901_151758-32y67gnw/files/media/metadata/boxes2D/pred_img_0_d73b056624b9d0439d1c.boxes2D.json
+2022-09-01 15:18:49,395 INFO    Thread-12 :10802 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/sagarkarki/Desktop/Project/Apply1/MyApp/wandb/run-20220901_151758-32y67gnw/files/media/images/pred_img_0_e3efef9953e952a9d4f3.png
+2022-09-01 15:18:49,395 INFO    Thread-12 :10802 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/sagarkarki/Desktop/Project/Apply1/MyApp/wandb/run-20220901_151758-32y67gnw/files/media/metadata/boxes2D
+2022-09-01 15:18:49,396 INFO    Thread-12 :10802 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/sagarkarki/Desktop/Project/Apply1/MyApp/wandb/run-20220901_151758-32y67gnw/files/media/metadata
+2022-09-01 15:18:49,396 INFO    Thread-12 :10802 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/sagarkarki/Desktop/Project/Apply1/MyApp/wandb/run-20220901_151758-32y67gnw/files/media
+2022-09-01 15:18:49,396 INFO    Thread-12 :10802 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/sagarkarki/Desktop/Project/Apply1/MyApp/wandb/run-20220901_151758-32y67gnw/files/media/images
+2022-09-01 15:18:49,883 INFO    Thread-19 :10802 [upload_job.py:push():138] Uploaded file /var/folders/qg/svjzmvbn3v12xfdwvbdsf1d80000gn/T/tmplwcme4abwandb/3v48sdzu-media/metadata/boxes2D/pred_img_0_d73b056624b9d0439d1c.boxes2D.json
+2022-09-01 15:18:50,031 INFO    Thread-20 :10802 [upload_job.py:push():138] Uploaded file /var/folders/qg/svjzmvbn3v12xfdwvbdsf1d80000gn/T/tmplwcme4abwandb/107n6ggr-media/images/pred_img_0_e3efef9953e952a9d4f3.png
+2022-09-01 15:18:50,400 INFO    Thread-12 :10802 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/sagarkarki/Desktop/Project/Apply1/MyApp/wandb/run-20220901_151758-32y67gnw/files/output.log
+2022-09-01 15:18:56,128 WARNING StreamThr :10802 [internal.py:is_dead():387] Internal process exiting, parent pid 10736 disappeared
+2022-09-01 15:18:56,129 ERROR   StreamThr :10802 [internal.py:wandb_internal():149] Internal process shutdown.
+2022-09-01 15:18:56,461 INFO    HandlerThread:10802 [handler.py:finish():810] shutting down handler
+2022-09-01 15:18:56,480 INFO    SenderThread:10802 [sender.py:finish():1312] shutting down sender
+2022-09-01 15:18:56,586 INFO    MainThread:10802 [internal.py:handle_exit():80] Internal process exited
+2022-09-01 15:18:56,587 WARNING MsgRouterThr:10802 [router.py:message_loop():73] EOFError seen in message_loop
