@@ -16,20 +16,21 @@ Compatible with any object detection model as long as they are in pytorch and ha
 
 
 Right now the repo trains DETR model on [Wheat head detection data](https://www.kaggle.com/competitions/global-wheat-detection/data)
-
+Uses pytorch lightning to train from [super-enigma](https://github.com/karkisa/super-enigma.git) and gradio on lightning app for deployment and inferencing
 Initial [Kaggle Notebook](https://www.kaggle.com/code/karkisa/small-object-detection-using-pytorch-lightning)
 
 ## How to run {example}
 First, install dependencies   
 ```bash
 # clone project   
-git clone https://github.com/karkisa/super-enigma.git
+git clone git@github.com:KarkiSagar/Lightning_DETR_app.git
 # install project   
-cd super-enigma 
+cd Lightning_DETR_app
 pip install -e .   
-pip install -r requirements.txt
+pip install -r requirements.txt # or try python -m pip install -r requirements.txt
 kaggle competitions download -c global-wheat-detection      # get data from kaggle
-unzip global-wheat-detection.zip                            # unzip the data 
+mkdir data
+unzip global-wheat-detection.zip   ./data                         # unzip the data 
 
 # clone your model's repo
 !git clone https://github.com/facebookresearch/detr.git  -q  # used for loss function , architecture and training logic
