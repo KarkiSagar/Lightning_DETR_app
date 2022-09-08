@@ -34,6 +34,9 @@ unzip global-wheat-detection.zip   ./data                         # unzip the da
 
 # clone your model's repo
 !git clone https://github.com/facebookresearch/detr.git  -q  # used for loss function , architecture and training logic
+
+# run the app for training and inference
+lightning run app app.py
  ```   
 
 Change the paths based on paths on your machine
